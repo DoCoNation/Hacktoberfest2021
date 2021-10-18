@@ -21,7 +21,7 @@
 
 - **Star** ⭐ the Repository on GitHub.
 - **Fork** and **Clone** the Repository.
-- **Contribute** any changes (Look for [**issues here**](https://github.com/DoCoNation/Hacktoberfest2021/issues))
+- **Contribute** any changes (Look for [**issues here**](https://github.com/DoCoNation/Hacktoberfest2021/issues) or check the README.md for all Folders)
 - Create a **Pull Request.** *(Pull Requests from accounts with a **Star** will only be considered.)*
 - **Watch this Video** in case of any doubts.
     
