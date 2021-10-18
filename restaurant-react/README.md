@@ -1,4 +1,4 @@
-## Edit only the js and css file of the component/section that you want to contribute to.
+## Edit only the js and css file of the component/section that you want to contribute to in the src folder.
 ## Do npm i before any changes
 ## Requirements
 
