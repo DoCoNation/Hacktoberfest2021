@@ -56,6 +56,35 @@ a {
   align-items: center;
 }
 
+/* HOME SECTION */
+
+#home {
+  background-image: url(/RestaurantWebsiteBasic/assets/BurgerFries.jpg);
+  box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.4);
+  color: #f6f6f6;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: left;
+  display: flex;
+}
+
+#home h1 {
+  margin-left: 200px;
+  font-size: 3.5rem;
+  letter-spacing: .3rem;
+  line-height: 5rem;
+  text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* Responsive Style Begins*/
+
+@media screen and (max-width: 1200px) {
+  #home h1 {
+    margin-left: 40px; 
+  }
+}
+
 @media screen and (max-width: 768px) {
   .navbar .navLinks {
     background-color: #333333;
@@ -82,5 +111,20 @@ a {
     display: block;
     font-size: 22px;
     cursor: pointer;
+  }
+  #home h1 {
+    margin-left: 16px;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #home h1 {
+    margin-left: 12px;
+    font-size: 2.2rem;
+    letter-spacing: .2rem;
+    line-height: 3rem;
   }
 }
