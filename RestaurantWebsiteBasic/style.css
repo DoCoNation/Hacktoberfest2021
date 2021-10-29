@@ -183,7 +183,72 @@ hr.rounded {
 }
 
 
+.map{
+display: flex;
+flex-direction: column;
+width: 60%;
+}
 
+.contact{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h3 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+
+.contact form{
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 32px;
+  
+}
+.contact  form input,
+.contact  form textarea {
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #cecdcf;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    width: 80%;
+}
+
+.contact  form input::placeholder,
+.contact  form textarea::placeholder {
+    color: #cecdcf;
+}
+.contact  form .btn {
+  background-color: #6C63FF;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #f6f6f6;
+  width: 80%;
+  cursor: pointer;
+}
+
+.footer {
+ 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #9491c2;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
 @media screen and (max-width: 768px) {
   .navbar .navLinks {
     background-color: #7d76ff;
@@ -255,5 +320,20 @@ hr.rounded {
      width: 300px;
   }
 
-  
+  #booking{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+    
+  .contact{
+    width: 100%;
+  }
+
+  .contact form{
+    width: 100%;
+  }
+  .map iframe{
+    margin: 10px;
+    width: 100%;
+  }
 }
