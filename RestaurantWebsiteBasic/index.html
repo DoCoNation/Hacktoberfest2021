@@ -2,59 +2,166 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Restaurant Webpage</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./assets/Favicon (2).png" type="image/x-icon">
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Restaurant Webpage</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./assets/Favicon (2).png" type="image/x-icon">
 </head>
 
 <body>
-     <!-- Navbar -->
-     <div class="navbar">
-        <div class="logo">
-            <a href="#home">
-                LOGO
-            </a>
-        </div>
-        <div class="navLinks">
-          <ul>
-              <a class="navLink" href="#home">
-                <li>Home</li>
-              </a>
-              <a class="navLink" href="#about">
-                <li>About</li>
-              </a>
-              <a class="navLink" href="#services">
-                <li>Services</li>
-              </a>
-              <a class="navLink" href="#booking">
-                <li>Booking</li>
-              </a>
-          </ul>
-        </div>
-        <div class="burger">
-            <i class="fas fa-bars"></i>
-        </div>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">
+      <a href="#home">
+        RESTO
+      </a>
+    </div>
+    <div class="navLinks">
+      <ul>
+        <a class="navLink" href="#home">
+          <li>Home</li>
+        </a>
+        <a class="navLink" href="#about">
+          <li>About</li>
+        </a>
+        <a class="navLink" href="#services">
+          <li>Services</li>
+        </a>
+        <a class="navLink" href="#booking">
+          <li>Booking</li>
+        </a>
+      </ul>
+    </div>
+    <div class="burger">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+
+  <div class="section" id="home">
+    <div class="h-content">
+      <div class="head">
+        <h1>
+          RESTO
+        </h1>
+      </div>
+      <div class="desc">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non quo in minima illo eius sapiente nam
+          dolor commodi qui.
+        </p>
+
+      </div>
+      <button class="HBtn">Reserve a Table</button>
     </div>
 
-    <!-- Home -->
-    <div class="section" id="home">
-        <h1> FRESH FOOD. <br> FUN ATMOSPHERE. <br> FULL BELLIES. <br> <br> What's not to LOVE?</h1>
+    <div class="h-image">
+      <img src="./assets/hero-image.png" alt="">
+    </div>
+  </div>
+  <div class="partition">
+    <hr class="rounded">
+    </hr>
+  </div>
+
+  <div class="section" id="about">
+
+    <div class="a-content">
+      <div class="head">
+        <h2>About Us</h2>
+      </div>
+      <div class="desc">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam voluptatibus repudiandae voluptates eius!
+          Repellendus, voluptatem delectus? <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
+          inventore officiis non.</p>
+      </div>
+      <div class="rating">
+        <h4>Star Rating</h4>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+      </div>
+    </div>
+    <div class="a-image">
+      <img src="./assets/about-image.png" alt="about image">
+    </div>
+  </div>
+  <div class="partition">
+    <hr class="rounded">
+    </hr>
+  </div>
+  <div class="section" id="services">
+
+
+    <div class="card">
+      <h1>Dining Out</h1>
+      <img src="./assets/dining-out.png" alt="Denim Jeans" style="width:100%">
+
+      <p>empore officia distinctio in?</p>
+      <p><button>Proceed</button></p>
+    </div>
+
+    <div class="card main">
+      <h1>Order In</h1>
+      <img src="./assets/order-in.png" alt="Denim Jeans" style="width:100%">
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore officia distinctio in?</p>
+      <p><button>Proceed</button></p>
+    </div>
+
+    <div class="card">
+      <h1>Night Life</h1>
+      <img src="./assets/night-life.png" alt="Denim Jeans" style="width:100%">
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore officia distinctio in?.</p>
+      <p><button>Proceed</button></p>
     </div>
 
 
+  </div>
+  <div class="partition">
+    <hr class="rounded">
+    </hr>
+  </div>
 
-    <div class="section" id="about">About</div>
-    <div class="section" id="services">Services</div>
-    <div class="section" id="booking">Booking</div>
+  <div class="section" id="booking">
+    <div class="map">
 
-    <script src="app.js"></script>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.48129412968!2d77.06889969035102!3d28.52728034389636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1635434309793!5m2!1sen!2sin"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="contact">
+      <h1>Contact</h1>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email Id">
+        <textarea placeholder="Your Message"></textarea>
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+    
+    <h3>
+      resto@something.com | Twitter | WhatsApp 
+    </h3>
+    <h1>
+
+    </h1>
+  </div>
+  <script src="app.js"></script>
 </body>
 
 </html>

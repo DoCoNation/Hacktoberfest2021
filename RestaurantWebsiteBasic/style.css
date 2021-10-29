@@ -24,7 +24,7 @@ a {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  background-color: #222222;
+  background-color: #6C63FF;
   color: #f6f6f6;
 }
 .navbar .logo {
@@ -44,9 +44,14 @@ a {
   font-size: 18px;
   font-weight: 400;
 }
+.navLinks .navLink:hover{
+font-weight: 600;
+
+}
 .burger {
   display: none;
 }
+
 
 .section {
   width: 100%;
@@ -54,45 +59,204 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
-/* HOME SECTION */
+.h-content {
+  width: 40%;
+}
+.h-content .head{
+  color: #6C63FF;
+  font-size: 30px;
+}
+.h-content .desc{
+  padding-bottom: 5px;
+}
+.h-image {
+  padding-top: 10px;
+  width: 60%;
+}
 
-#home {
-  background-image: url(/RestaurantWebsiteBasic/assets/BurgerFries.jpg);
-  box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.4);
+.h-image img{
+  width: 100%;
+}
+
+.HBtn{
+  border: none;
   color: #f6f6f6;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: left;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #6C63FF;
+  border-radius: 10px;
+  box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.partition{
+  padding-left: 120px;
+  padding-right: 120px;
+  
+}
+hr.rounded {
+  border: 2px solid #6C63FF;
+  border-radius: 5px;
+  
+}
+
+#about{
   display: flex;
+  flex-direction: row-reverse;
 }
 
-#home h1 {
-  margin-left: 200px;
-  font-size: 3.5rem;
-  letter-spacing: .3rem;
-  line-height: 5rem;
-  text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+.a-content {
+  width: 40%;
+}
+.a-content .head{
+  color: #6C63FF;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.a-content .desc{
+  padding-bottom: 5px;
+}
+.a-image {
+  padding-top: 10px;
+  width: 60%;
 }
 
-/* Responsive Style Begins*/
+.a-image img{
+  width: 100%;
+}
+.rating{
+  margin-top: 20px;
+}
+.checked {
+  color: orange;
+}
 
-@media screen and (max-width: 1200px) {
-  #home h1 {
-    margin-left: 40px; 
+#services{
+  display: flex;
+  flex-direction: row;
   }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  
 }
 
+.card h1{
+  background-color: #6C63FF;
+  color: #f6f6f6;
+  padding: 10px;
+}
+
+.card p{
+  padding: 10px;
+}
+
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #f6f6f6;
+  background-color: #6C63FF;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+.map{
+display: flex;
+flex-direction: column;
+width: 60%;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h3 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+
+.contact form{
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 32px;
+  
+}
+.contact  form input,
+.contact  form textarea {
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #cecdcf;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    width: 80%;
+}
+
+.contact  form input::placeholder,
+.contact  form textarea::placeholder {
+    color: #cecdcf;
+}
+.contact  form .btn {
+  background-color: #6C63FF;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #f6f6f6;
+  width: 80%;
+  cursor: pointer;
+}
+
+.footer {
+ 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #9491c2;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
 @media screen and (max-width: 768px) {
   .navbar .navLinks {
-    background-color: #333333;
+    background-color: #7d76ff;
     position: absolute;
     right: 0;
     top: 10vh;
     height: 90vh;
-    width: 60%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,19 +276,64 @@ a {
     font-size: 22px;
     cursor: pointer;
   }
-  #home h1 {
-    margin-left: 16px;
-    font-size: 3rem;
-    letter-spacing: .2rem;
-    line-height: 3rem;
+.section {
+    height: 100%;
   }
-}
+  .partition{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #home{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .h-image {
+    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .h-content {
+    width: 100%;
+  }
 
-@media screen and (max-width: 600px) {
-  #home h1 {
-    margin-left: 12px;
-    font-size: 2.2rem;
-    letter-spacing: .2rem;
-    line-height: 3rem;
+  #about{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    
+  }
+  .a-image {
+    padding-top: 60px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .a-content {
+    width: 100%;
+  }
+#services{
+  display: flex;
+  flex-direction: column;
+  }
+  .card{
+     margin: 10px;
+     width: 300px;
+  }
+
+  #booking{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+    
+  .contact{
+    width: 100%;
+  }
+
+  .contact form{
+    width: 100%;
+  }
+  .map iframe{
+    margin: 10px;
+    width: 100%;
   }
 }
