@@ -160,6 +160,10 @@ hr.rounded {
   padding: 10px;
 }
 
+.card img{
+  width: 300px;
+}
+
 .card p{
   padding: 10px;
 }
