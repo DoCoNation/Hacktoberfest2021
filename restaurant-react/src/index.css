@@ -7,3 +7,6 @@ a {
 	color: inherit;
 	text-decoration: none;
 }
+.section {
+	padding: 50px 120px;
+}
