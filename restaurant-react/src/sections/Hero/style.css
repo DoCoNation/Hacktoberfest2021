@@ -1,0 +1,46 @@
+.hero {
+	width: 100%;
+	height: 100vh;
+}
+.hero .heroContent {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: fff;
+}
+.hero .heroContent h1 {
+	font-size: 120px;
+	background-clip: text;
+	background: -webkit-linear-gradient(30deg, #487fff -20%, #8e54e9 50%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.hero .heroContent p {
+	margin: 16px 0;
+	font-size: 28px;
+	font-weight: 600;
+	text-align: center;
+}
+.btn {
+	padding: 14px 32px;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: all 200ms ease-in-out;
+}
+.btn:hover {
+	transform: scale(1.05);
+	filter: brightness(105%);
+}
+.btn:active {
+	transform: scale(0.98);
+	filter: contrast(105%);
+}
+.btn.btn-primary {
+	background: #487fff;
+	color: #fff;
+}
