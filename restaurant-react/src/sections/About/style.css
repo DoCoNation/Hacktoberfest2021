@@ -1,0 +1,31 @@
+.about {
+	min-height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about .left,
+.about .right {
+	width: 50%;
+}
+.about .right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about .right img {
+	width: 80%;
+	border-radius: 8px;
+}
+.about h2 {
+	font-size: 96px;
+	background: -webkit-linear-gradient(30deg, #487fff -20%, #8e54e9 50%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.about p {
+	margin: 16px 0;
+	font-size: 20px;
+	font-weight: 500;
+}
